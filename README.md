@@ -41,4 +41,4 @@ These modules address real-world business needs with a focus on usability, autom
 **Abdulrahman Fouad**  
 Odoo Developer | Python Engineer | Well Engineering Instructor  
 📧 abdulrahmanfo25@gmail.com  
-🔗 [LinkedIn]([https://www.linkedin.com/in/abdulrahman-fouad/])
+🔗 [LinkedIn](https://www.linkedin.com/in/abdulrahman-fouad/)
