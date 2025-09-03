@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_order_form_inherit_customer_fields" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit.customer.fields</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/notebook/page[@name='order_lines']" position="before">
+                <page string="Customer Info">
+                    <group>
+                        <field name="partner_street"/>
+                        <field name="partner_street2"/>
+                        <field name="partner_city"/>
+                        <field name="partner_state_id"/>
+                        <field name="partner_country_id"/>
+                        <field name="partner_phone"/>
+                        <field name="partner_mobile"/>
+                        <field name="partner_email"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
